@@ -728,6 +728,7 @@ export class EngineReportingAgent<TContext = any> {
       executableSchema,
       this.apiKey,
       this.options.schemaReportingUrl,
+      this.logger
     );
 
     const fallbackReportingDelayInMs = 20_000;
